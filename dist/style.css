@@ -1,29 +1,62 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 800px;
+  color: #333;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+.logo {
+  width: 300px;
+  height: auto;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+.banner {
+  background-color: #d71920; /* UA red */
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+.banner h1 {
+  font-size: 22px;
+  margin: 0;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+.author {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+.snake-img {
+  float: left;
+  margin: 10px 15px 10px 0;
+  width: 250px;
+  height: auto;
+}
+
+ol {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.share {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.share a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.share a:hover {
+  text-decoration: underline;
 }
